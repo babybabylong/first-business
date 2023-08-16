@@ -1,0 +1,27 @@
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binary, build with `go test -c`
+*.test
+
+# Output of the go coverage tool, specifically when used with LiteIDE
+*.out
+.idea/
+logs/
+*.tar.gz
+*-linux
+config/conf/custom.yaml
+# mac 自动生成
+*.DS_Store
+/name.crt
+/name.key
+
+# http日志文件
+.idea/httpRequests/http-requests-log.http
+data/data
+
+tools/test/data/
